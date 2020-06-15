@@ -87,7 +87,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-.btn-center {
+.item-center {
     display: flex;
     justify-content: center;
 }
@@ -102,4 +102,50 @@ h1 {
     font-family: $font-title;
     font-weight: 700;
     text-align: center;
+}
+
+//SERVICES
+.section-title {
+    font-family: $font-title;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: $color-two;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.section-subtitle {
+    font-family: $font-header;
+    font-size: 16px;
+    color: $color-three;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.icon {
+    padding: 10px;
+    border: 3px solid $color-main;
+    border-radius: 50%;
+}
+
+
+h4 {
+    font-family: $font-title;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: $color-two
+}
+
+
+.content {
+    padding: 0 25px;
+    text-align: center;
+    font-family: $font-text;
+    font-size: 14px;
+    color: $color-three;
 }
