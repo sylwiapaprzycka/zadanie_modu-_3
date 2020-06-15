@@ -149,3 +149,75 @@ h4 {
     font-size: 14px;
     color: $color-three;
 }
+
+//PORTFOLIO
+
+.container-gray {
+    background: #F7F7F7;
+    padding-top: 20px;
+}
+
+.wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1140px;
+        margin: 0 auto;
+}
+
+.portfolio-box {
+    background: #fff;
+    margin-bottom: 40px;
+}
+.img {  
+    
+    width: 290px;
+    height: 300px;
+}
+.img-1 {
+    background: url("https://i.postimg.cc/904gBqM9/ebonyivory.jpg");
+    background-position: center;
+    background-size: cover;
+}
+    
+.img-2 {
+    background: url("https://i.postimg.cc/Bn6yZ6HR/smart-stationary.jpg");
+    background-position: center;
+    background-size: cover;}
+.img-3 {
+    background: url("https://i.postimg.cc/k4HfDXcg/clever-poster.jpg");
+    background-position: center;
+    background-size: cover;}
+.img-4 {
+    background: url("https://i.postimg.cc/VkVhJ8Fv/vinyl-record.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img-5 {
+    background: url("https://i.postimg.cc/GpcM5ftd/treehouse-template.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.img-6 {
+    background: url("https://i.postimg.cc/j52MsJy1/burned-logo.jpg");
+    background-position: center;
+    background-size: cover;}
+
+.portfolio-box img {
+    width: 290px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.description {
+    font-family: $font-header;
+    font-size: 14px;
+    color: $color-three;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
