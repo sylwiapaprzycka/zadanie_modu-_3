@@ -260,3 +260,12 @@ i:hover {
 footer a:hover {
     transform: scale(1.2);    
 }
+
+.row-2 {
+    justify-content: flex-start;
+}
+
+footer p {
+    margin-right: 200px;
+    color: $color-three;
+}

@@ -265,4 +265,14 @@ i:hover {
 footer a:hover {
   transform: scale(1.2);
 }
+
+.row-2 {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+
+footer p {
+  margin-right: 200px;
+  color: #777777;
+}
 /*# sourceMappingURL=style.css.map */
