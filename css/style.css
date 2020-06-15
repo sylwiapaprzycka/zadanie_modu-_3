@@ -1,0 +1,104 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Roboto Slab", serif;
+  color: #777777;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+header {
+  background: url("https://i.postimg.cc/Gpv43JF7/Background-Image.png");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+header img {
+  height: 26px;
+}
+
+nav {
+  paddiing: 20px 0;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 40px 0 0;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  overflow: hidden;
+  max-width: 1140px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 40px;
+  margin: 205px 0 50px 0;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 20px 35px;
+  min-width: 160px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #FED136;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

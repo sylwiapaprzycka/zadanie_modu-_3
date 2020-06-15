@@ -1,0 +1,105 @@
+$font-header: 'IBM Plex Sans', sans-serif;
+$font-text: 'Roboto Slab', serif;
+$font-title: 'Montserrat', sans-serif;
+$color-main: #FED136;
+$color-two: #222222;
+$color-three: #777777;
+$transition: all 1s;
+
+//GLOBAL
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: $font-text;
+    color: $color-three;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+//HEADER
+header {
+    background: url("https://i.postimg.cc/Gpv43JF7/Background-Image.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+header img {
+    height: 26px;
+}
+
+nav {
+    paddiing: 20px 0;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 40px 0 0;
+    position: relative;
+    font-family: $font-title;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    max-width: 1140px;
+    padding: 20px;
+    margin: 0 auto;
+}
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h2 {
+    font-family: $font-header;
+    font-size: 40px;
+    margin: 205px 0 50px 0;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: $font-title;
+    font-size: 75px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    text-decoration: none;
+    padding: 20px 35px;
+    min-width: 160px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: $color-main;
+    color: #fff;
+    font-family: $font-title;
+    font-weight: 700;
+    text-align: center;
+}
