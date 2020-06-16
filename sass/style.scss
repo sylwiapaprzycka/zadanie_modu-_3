@@ -70,6 +70,7 @@ nav li a:hover {
     padding: 20px;
     margin: 0 auto;
 }
+
 nav li a {
     text-decoration: none;
     color: #fff;
@@ -92,10 +93,12 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+
 .item-center {
     display: flex;
     justify-content: center;
 }
+
 .btn {
     text-decoration: none;
     padding: 20px 35px;
@@ -136,7 +139,6 @@ h1 {
     border-radius: 50%;
 }
 
-
 h4 {
     font-family: $font-title;
     text-transform: capitalize;
@@ -145,7 +147,6 @@ h4 {
     text-align: center;
     color: $color-two
 }
-
 
 .content {
     padding: 0 25px;
@@ -173,11 +174,13 @@ h4 {
     background: #fff;
     margin-bottom: 40px;
 }
+
 .img {  
     
     width: 290px;
     height: 300px;
 }
+
 .img-1 {
     background: url("https://i.postimg.cc/904gBqM9/ebonyivory.jpg");
     background-position: center;
@@ -187,25 +190,32 @@ h4 {
 .img-2 {
     background: url("https://i.postimg.cc/Bn6yZ6HR/smart-stationary.jpg");
     background-position: center;
-    background-size: cover;}
+    background-size: cover;
+}
+
 .img-3 {
     background: url("https://i.postimg.cc/k4HfDXcg/clever-poster.jpg");
     background-position: center;
-    background-size: cover;}
+    background-size: cover;
+}
+
 .img-4 {
     background: url("https://i.postimg.cc/VkVhJ8Fv/vinyl-record.jpg");
     background-position: center;
     background-size: cover;
 }
+
 .img-5 {
     background: url("https://i.postimg.cc/GpcM5ftd/treehouse-template.jpg");
     background-position: center;
     background-size: cover;
 }
+
 .img-6 {
     background: url("https://i.postimg.cc/j52MsJy1/burned-logo.jpg");
     background-position: center;
-    background-size: cover;}
+    background-size: cover;
+}
 
 .portfolio-box img {
     width: 290px;
