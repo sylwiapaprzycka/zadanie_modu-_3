@@ -56,6 +56,11 @@ nav li{
     font-weight: 400;
 }
 
+nav li a:hover {
+    color: $color-main;
+    cursor: pointer;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -151,7 +156,6 @@ h4 {
 }
 
 //PORTFOLIO
-
 .container-gray {
     background: #F7F7F7;
     padding-top: 20px;
@@ -255,10 +259,11 @@ footer a {
 
 i:hover {
     transform: scale(1.2);    
+    background-color: $color-main; 
 }
 
 footer a:hover {
-    transform: scale(1.2);    
+    transform: scale(1.2);   
 }
 
 .row-2 {
@@ -268,4 +273,68 @@ footer a:hover {
 footer p {
     margin-right: 200px;
     color: $color-three;
+}
+
+//MEDIA
+@media (max-width: 767px){
+   
+    nav li{
+        margin: 0 4px 0 0;
+        position: relative;
+        font-family: $font-title;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .row {
+        flex-direction: column;
+    }
+
+   h2 {
+       margin: 20px 0;
+       font-size: 28px;
+   }
+
+   h1 {
+       font-size: 40px;
+       margin-bottom: 30px;
+   }
+   .btn {
+       padding: 10px 15px;
+       font-size: 14px;
+   }
+
+   #services .box {
+       margin-bottom: 25px;
+   }
+
+   .content {
+       font-size: 12px;
+   }
+
+   h4 {
+       font-size: 16px;
+   }
+
+   .icon {
+        padding: 5px;
+        height: 65px;
+        width: 65px;
+    }
+
+    .section-title {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+
+    .section-subtitle {
+        font-size: 12px;
+    }
+
+    .row-2 {
+        flex-direction: column-reverse;
+    }
+    footer p {
+        margin-right: 0;
+        font-size: 11px;
+    }
 }

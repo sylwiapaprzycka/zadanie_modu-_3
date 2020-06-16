@@ -46,6 +46,11 @@ nav li {
   font-weight: 400;
 }
 
+nav li a:hover {
+  color: #FED136;
+  cursor: pointer;
+}
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -260,6 +265,7 @@ footer a {
 
 i:hover {
   transform: scale(1.2);
+  background-color: #FED136;
 }
 
 footer a:hover {
@@ -274,5 +280,60 @@ footer a:hover {
 footer p {
   margin-right: 200px;
   color: #777777;
+}
+
+@media (max-width: 767px) {
+  nav li {
+    margin: 0 4px 0 0;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .row {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  h2 {
+    margin: 20px 0;
+    font-size: 28px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  #services .box {
+    margin-bottom: 25px;
+  }
+  .content {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .icon {
+    padding: 5px;
+    height: 65px;
+    width: 65px;
+  }
+  .section-title {
+    font-size: 28px;
+    margin-top: 50px;
+  }
+  .section-subtitle {
+    font-size: 12px;
+  }
+  .row-2 {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+  footer p {
+    margin-right: 0;
+    font-size: 11px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
